@@ -1,0 +1,43 @@
+<section class="section-values">
+
+  <h3 id="values">values</h3>
+
+  <div class="values-mobile-nav">
+    {% for value in site.data.settings.values %}
+        <span class="value-button {% if forloop.first %}active-value{% endif %}"></span>
+    {% endfor %}
+  </div>
+
+  <div class="values-belt">
+    {% for value in site.data.settings.values %}
+      <div class="value-unit {% if forloop.first %}active-value{% endif %}">
+
+        <figure class="value-face">
+          <img src="assets/img/values/{{ value.avatar }}" alt="value-face">
+          <figcaption>
+            <strong class="value-name">{{ value.name }}</strong>
+            <em class="value-title">{{ value.title }}</em>
+          </figcaption>
+        </figure>
+
+        <div class="value-content">
+          <div class="value-quote-mark">{% include icons/icon-quote-mark.html %}</div>
+          {{ value.quote }}
+        </div>
+      </div>
+    {% endfor %}
+
+  </div>
+
+  <div class="value-controls">
+    <div class="value-control-next">{% include icons/icon-next.html %}</div>
+    <div class="value-control-prev">{% include icons/icon-prev.html %}</div>
+  </div>
+
+  <div class="values-logos">
+    {% for value in site.data.settings.values %}
+        <img class="value-logo {% if forloop.first %}active-value{% endif %}" src="assets/img/values/{{ value.logo }}" align="{{ value.logo }}">
+    {% endfor %}
+  </div>
+
+</section>

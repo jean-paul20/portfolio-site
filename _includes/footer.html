@@ -1,0 +1,22 @@
+<footer id="footer">
+
+  <div class="lockup">
+
+    <div class="content-wrap">
+      <nav>
+        {% for item in site.data.settings.menu %}
+        <a href="{{ item.url }}">{{ item.name }}</a>
+        {% endfor %}
+      </nav>
+
+      <p class="copyright">All content copyright
+        {{ site.time | date: '%Y' }} and Credits to ...
+
+        <br/>
+        <img alt="Licence Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" style="border-width:0"/><br/>
+      </p>
+    </div>
+
+  </div>
+
+</footer>
