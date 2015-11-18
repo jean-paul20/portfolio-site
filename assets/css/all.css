@@ -158,7 +158,7 @@ td, th {
   font-style: normal;
   font-weight: 700;
   src: local("Open Sans Bold"), local("OpenSans-Bold"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format("woff"); }
-/*
+/* 
   Animation: bounceOut
   Source: Bounce.Js */
 .thumb-container label .thumb-overlay {
@@ -373,7 +373,7 @@ td, th {
     -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } }
 /* Animation: fadeIn
- * Source: Dylan Spicker
+ * Source: Dylan Spicker 
  * Rewrite: niklasravnsborg */
 /* Animation: bottomUp
  * Source: Travis Nielson */
