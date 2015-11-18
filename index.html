@@ -1,0 +1,40 @@
+---
+---
+<!DOCTYPE html>
+<html class="">
+  <head>
+    <meta charset="UTF-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="{{ site.data.settings.seo.description }}" name="description">
+    <meta href="{{ site.data.settings.seo.rel-author }}" rel="author">
+    <meta href="{{ site.data.settings.seo.rel-publisher }}" rel="publisher">
+
+    <title>{{ site.data.settings.title }}</title>
+
+    <link href="assets/css/all.css" rel="stylesheet">
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    {% include analytics.html %}
+  </head>
+  <body>
+
+    {% include header.html %}
+
+    {% include about.html %}
+
+    {% include mission.html %}
+    {% include values.html %}
+
+    {% include contact.html %}
+
+    {% include form.html %}
+
+    {% include footer.html %}
+
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="assets/js/functions.js"></script>
+  </body>
+</html>

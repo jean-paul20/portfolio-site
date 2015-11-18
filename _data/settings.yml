@@ -1,0 +1,106 @@
+#-------------------------------
+# General Site Settings
+
+title: I.T to INDUSTRY
+description: Vision // Align IT // Technical Expertise
+contactmail: I.T Manager, 25 year experience
+email: myjob
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Missions, url: '#mission'}
+- {name: Values, url: '#values'}
+- {name: Contact, url: '#contact'}
+
+# - {name: Values, url: '#values'}
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Jean-Paul specializes in leading I.T transformation projects for the best benefit of one company, its employees and owners. He is well experienced in matching business processes of  Industrial companies with ERP solutions'
+  rel-author: 'Jean-Paul Vintrou'
+  rel-publisher: 'Jean-Paul Vintrou'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+topo: >
+  **Jean-Paul specializes in leading I.T transformation projects** for the best benefit of one company, its employees and owners.
+  He is well experienced in matching business processes of  Industrial companies with ERP solutions like [Infor M3](http://www.infor.com/product-summary/erp/m3/){:target="_blank"}, [Microsoft Navision ](https://www.microsoft.com/fr-fr/dynamics/erp-decouvrir-fonctionnalites-nav.aspx){:target="_blank"} and sometimes even [SAP E.C.C. ](https://www.sap.com){:target="_blank"}.
+
+  <br class="one-br">
+  Jean-Paul also loves training colleagues, **teaching about managing Information Systems**. Currently, he is focusing on how **[Industrial IoT](http://www.inoreader.com/stream/user/1005595596/tag/user-broadcasted/view/html)** will add value at office and shopfloor levels.
+
+
+
+topof: >
+
+  Jean-paul can help in any management job position:
+  <br class="one-br"> full, temporary or part-time contract.
+  <br class="one-br">
+  **You are welcome** !
+  <br class="one-br">
+  Just use this form ...
+
+
+skills:
+- {name: Strategy, value: '9'}
+- {name: Organization, value: '8'}
+- {name: Change Management, value: '10'}
+- {name: Planning, value: '10'}
+- {name: Teaching, value: '10'}
+- {name: Programming, value: '7'}
+
+#-------------------------------
+# missions Section
+
+projects:
+- {name: Rolls improve Productivity  2000, folder: 'proj-1', file: 'mission/proj-1.html'}
+- {name: The strength of Service Center 2008, folder: 'proj-2', file: 'mission/proj-2.html'}
+- {name: Innovation in Technical DB 2010, folder: 'proj-3', file: 'mission/proj-3.html'}
+- {name: APS moves your business 2012, folder: 'proj-4', file: 'mission/proj-4.html'}
+- {name: SAP moves your business 2008, folder: 'proj-5', file: 'mission/proj-5.html'}
+- {name: We move your WCR 2011, folder: 'proj-6', file: 'mission/proj-6.html'}
+- {name: The strength to outsource 2014, folder: 'proj-7', file: 'mission/proj-7.html'}
+- {name: Rolls improve Security  2007, folder: 'proj-8', file: 'mission/proj-8.html'}
+
+
+
+
+#-------------------------------
+# values Section
+
+values:
+- {avatar: 'johnAllspaw.jpg',
+  name: 'John Allspaw',
+  title: 'Professional quality.',
+  quote: '<p><strong>Lean IT</strong> like described by Mary Poppendieck in <em>The Role of Leadership In Software Development</em> or by John Allspaw in his <em>Building Resilience in Web Development and Operations</em> at USI. </p>',
+  logo: 'Six_sigma-2.svg'}
+
+
+#-------------------------------
+# Contact Section
+
+
+social:
+- {icon: 'twitter', link: 'https://twitter.com/JpVintrou'}
+- {icon: 'github', link: 'https://github.com/jean-paul20'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com/in/jeanpaulvintroucio/'}
+
+
+# social netmission icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
