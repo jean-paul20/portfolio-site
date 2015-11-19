@@ -616,7 +616,7 @@ header, footer {
 
 header {
   background-position: 30px 20px, 50% 50%;
-  background-image: url(../img/logo.svg), url(../img/La_Fonderie,_Brussels_Museum_of_Industry_and_Labour80.jpg);
+  background-image: url(../img/logo.svg), url(../img/la_fonderie_brussels_museum_of_industry_and_labour.jpg);
   padding-bottom: 480px; }
   header .logo {
     height: 40px;
@@ -663,7 +663,7 @@ header {
     header h1 {
       padding-top: 0px; } }
 footer {
-  background-image: url(../img/logo.svg), url(../img/La_Fonderie,_Brussels_Museum_of_Industry_and_Labour80.jpg); }
+  background-image: url(../img/logo.svg), url(../img/la_fonderie_brussels_museum_of_industry_and_labour.jpg); }
   footer .lockup {
     padding: 50px 30px; }
     footer .lockup:after {
