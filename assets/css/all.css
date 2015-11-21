@@ -1291,3 +1291,10 @@ form {
   text-align: center; }
   .form-success p {
     font-size: 18px; }
+
+.close-windows {
+  cursor: pointer;
+  position: absolute;
+  top: 50px;
+  left: 60px;
+  width: 100; }

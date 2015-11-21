@@ -9,7 +9,7 @@ $(function() {
 		minFontSize: '20px',
 		maxFontSize: '72px'
 	});
-	$(".biglink").fitText(1.5);
+	$(".biglink").fitText(1.6);
 
 	$('textarea').autosize();
 });
