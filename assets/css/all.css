@@ -584,9 +584,14 @@ h3 {
   text-align: center;
   padding: 100px 0 30px; }
 
+h4 {
+  color: #e1c285;
+  text-align: center; }
+
 h6 {
-  color: silver;
-  text-align: left; }
+  color: black;
+  text-align: left;
+  font-weight: normal; }
 
 fieldset {
   padding: 0;
@@ -604,6 +609,11 @@ fieldset {
 
 header nav a, header .kicker, footer .lockup .content-wrap a {
   font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+h4 {
+  font-size: 24px;
   font-weight: 700;
   text-transform: uppercase; }
 
@@ -786,6 +796,14 @@ footer {
       margin: 10px 9%; } }
 .topo {
   max-width: 620px;
+  padding: 0 20px;
+  margin: 50px auto;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 300; }
+
+.credits {
+  max-width: 900px;
   padding: 0 20px;
   margin: 50px auto;
   font-size: 24px;
