@@ -582,7 +582,7 @@ svg {
 h3 {
   color: #e1c285;
   text-align: center;
-  padding: 100px 0 30px; }
+  padding: 40px 0 40px; }
 
 h4 {
   color: #e1c285;
@@ -812,7 +812,7 @@ footer {
 
 .skill-lockup {
   max-width: 540px;
-  margin: 100px auto;
+  margin: 20px auto;
   color: #999; }
   .skill-lockup:after {
     content: "";
@@ -849,7 +849,8 @@ footer {
     .skill-lockup .skill-unit {
       width: 220px; } }
 .section-mission {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  padding-bottom: 360px; }
 
 /* Hackey-type CSS as a jQuery Alternative for when the browser does not have jQuery enabled. */
 .noscript {
@@ -1009,7 +1010,8 @@ footer {
   .mission-container h4 {
     margin-left: 60px; } }
 .section-values {
-  position: relative; }
+  position: relative;
+  padding-bottom: 200px; }
 
 .values-belt {
   width: 100%;
@@ -1175,11 +1177,12 @@ footer {
   .value-controls {
     display: none; } }
 .section-contact {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 30px; }
 
 .social-links {
   max-width: 700px;
-  margin: 0px auto 50px;
+  margin: 0px auto 20px;
   display: -webkit-box;
   display: -moz-box;
   display: box;
@@ -1241,7 +1244,7 @@ footer {
   width: 250px;
   height: 0px;
   border-top: 4px solid #c99065;
-  margin: 0px auto 50px; }
+  margin: 10px auto 20px; }
 
 .biglink {
   display: inline-block;
@@ -1250,7 +1253,7 @@ footer {
   font-color: #c99065;
   line-height: 0.8;
   width: 90%;
-  margin: 0 auto; }
+  margin: 0px auto; }
 
 form {
   max-width: 450px;
@@ -1262,7 +1265,7 @@ form {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 5px;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -1298,6 +1301,14 @@ form {
     margin-bottom: 20px; }
     form label span {
       display: block; }
+
+.topof {
+  max-width: 620px;
+  padding: 0 0px;
+  margin: 10px auto;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 300; }
 
 @media (max-width: 541px) {
   form .contact-info-group label {
